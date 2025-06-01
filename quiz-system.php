@@ -26,6 +26,7 @@ require_once QUIZ_SYSTEM_PLUGIN_DIR . 'includes/admin/admin-functions.php';
 require_once QUIZ_SYSTEM_PLUGIN_DIR . 'includes/frontend/shortcodes.php';
 require_once QUIZ_SYSTEM_PLUGIN_DIR . 'includes/frontend/quiz-display.php';
 require_once QUIZ_SYSTEM_PLUGIN_DIR . 'includes/frontend/quiz-submission.php';
+require_once QUIZ_SYSTEM_PLUGIN_DIR . 'includes/frontend/quiz-ajax.php';
 
 // Plugin activation
 register_activation_hook(__FILE__, 'quiz_system_activate');
